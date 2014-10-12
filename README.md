@@ -2,9 +2,4 @@
 
 ## Jean-Francois Gagnon
 
-Exercice 6 (7 octobre 2014)
-
-
-
-
-
+Exercice 6_v2 (11 octobre 2014)
