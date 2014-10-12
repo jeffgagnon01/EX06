@@ -1,6 +1,15 @@
-
 # SIO-2109
 
 ## Jean-Francois Gagnon
 
 Exercice 6_v2 (11 octobre 2014)
+
+
+Bonjour Pr Dzenan, voici mon ex06 avec le fichier pubspect.yaml tel que demandé. Je crois que tout est en ordre.
+
+J'ai travaillé à partir de votre document two_files. 
+
+J'ai changé le ''remote URL'' afin de pouvoir ''pusher'' mon code dans ce repository.
+Source : https://help.github.com/articles/changing-a-remote-s-url/
+
+N'hésitez pas à me dire si cela n'est toujorus pas OK. 
