@@ -9,5 +9,7 @@ J'ai bien lu le site https://www.dartlang.org/tools/pub/pubspec.html mais je ne 
 J'ai pourtant cloné et travaillé à partir de votre fichier two_files. 
 De plus, mon code fonctionnait bien dans Dart Editor et j'ai fait ''push'' comme à l'habitude... 
 
-Je ne retrouve aucun fichier pubspect.yaml dans mon dossier local pour l'exercice 6. 
-Je vais essayer de faire git pull / git push avec un autre fichier pusbspect que je crois similaire... 
+2014-10-11 22:22: 
+
+C'est fait ! Veillez voir mon repository Ex06_v2
+Cordialement,
