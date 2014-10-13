@@ -2,6 +2,13 @@ ex06
 
 ?/20
 
+S'il vous plaît faire une mise à jour du projet EX06. 
+Vous ne créez pas un nouveau projet dans le but de faire une petite mise à jour.
+
+---
+
+?/20
+
 s'il vous plaît utiliser le fichier pubspec.yaml
 
 2014-10-11 : 
