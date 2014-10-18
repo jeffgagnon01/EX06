@@ -30,4 +30,4 @@ C'est fait ! Veillez voir mon repository Ex06_v2
 Cordialement,
 
 2014-10-18 12:41 :
-Mise à jour effectué dans le premier projet. 
+Mise à jour effectuée dans le premier projet. NE PLUS CONSIDÉRER le repository Ex06_v2 svp. 
