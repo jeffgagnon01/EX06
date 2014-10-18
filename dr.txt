@@ -5,11 +5,29 @@
 Exercice 6_v2 (11 octobre 2014)
 
 
-Bonjour Pr Dzenan, voici mon ex06 avec le fichier pubspect.yaml tel que demandé. Je crois que tout est en ordre.
 
-J'ai travaillé à partir de votre document two_files. 
+ex06
 
-J'ai changé le ''remote URL'' afin de pouvoir ''pusher'' mon code dans ce repository.
-Source : https://help.github.com/articles/changing-a-remote-s-url/
+?/20
 
-N'hésitez pas à me dire si cela n'est toujorus pas OK. 
+S'il vous plaît faire une mise à jour du projet EX06. 
+Vous ne créez pas un nouveau projet dans le but de faire une petite mise à jour.
+
+---
+
+?/20
+
+s'il vous plaît utiliser le fichier pubspec.yaml
+
+2014-10-11 : 
+J'ai bien lu le site https://www.dartlang.org/tools/pub/pubspec.html mais je ne comprends très bien pourquoi ce type de ficher n'est pas présent. 
+J'ai pourtant cloné et travaillé à partir de votre fichier two_files. 
+De plus, mon code fonctionnait bien dans Dart Editor et j'ai fait ''push'' comme à l'habitude... 
+
+2014-10-11 22:22: 
+
+C'est fait ! Veillez voir mon repository Ex06_v2
+Cordialement,
+
+2014-10-18 12:41 :
+Mise à jour effectué dans le premier projet. 
