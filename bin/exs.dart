@@ -63,43 +63,43 @@ ex06_q5() {
   print('Question 5 : Prepare two lists, one with the names of players and the other with the names of clubs. Make the third list with clubs ordered by their names, where each club is followed by its list of players.');
   
   var parties = new Map();
-    parties[1] = 'Parti Libéral du Québec';
-    parties[2] = 'Parti Québécois';
-    parties[3] = 'Coalition Avenir Québec';
-    parties[4] = 'Québec Solidaire';
+  parties[1] = 'Parti Libéral du Québec';
+  parties[2] = 'Parti Québécois';
+  parties[3] = 'Coalition Avenir Québec';
+  parties[4] = 'Québec Solidaire';
+  
+  var listparties = parties.values.toList();
+  assert(listparties is List);
+  print ('Partie 1 - Voici la liste des partis politiques : ${parties}');
+  
+  var deputees = new Map();
+  deputees['Couillard'] = 1;  // Valeur attribuée en fonction de leur parti respectif
+  deputees['Barette'] = 1;
+  deputees['David'] = 4;
+  deputees['Khadir'] = 4;
+  deputees['Marois'] = 2;
+  deputees['Gaudreault'] = 2;
+  deputees['Peladeau'] = 2;
+  deputees['Charest'] = 1;
+  deputees['Legault'] = 3;
+  deputees['Deltell'] = 3;
+  deputees['Roy'] = 3;
+  
+  var listdeputees = deputees.keys.toList();
+  assert(listdeputees is List);
+  print ('Partie 2 - Voici la liste des députés : ${deputees}');
     
-    var listparties = parties.values.toList();
-    assert(listparties is List);
-    print ('Partie 1 - Voici la liste des partis politiques : ${parties}');
-    
-    var deputees = new Map();
-    deputees['Couillard'] = 1;  // Valeur attribuée en fonction de leur parti respectif
-    deputees['Barette'] = 1;
-    deputees['David'] = 4;
-    deputees['Khadir'] = 4;
-    deputees['Marois'] = 2;
-    deputees['Gaudreault'] = 2;
-    deputees['Peladeau'] = 2;
-    deputees['Charest'] = 1;
-    deputees['Legault'] = 3;
-    deputees['Deltell'] = 3;
-    deputees['Roy'] = 3;
-    
-    var listdeputees = deputees.keys.toList();
-    assert(listdeputees is List);
-    print ('Partie 2 - Voici la liste des députés : ${deputees}');
-    
-// Partie 3    
-    listparties.sort();
-    print('Partie 3 - Voici la liste des partis (ou clubs) triés par ordre alphabétique: ${listparties}.');
-   
-   // Finalement, faire une map dont Parties = Key et Deputees = Values
-    var ListeNo3 = ChambreDesCommunes(parties, deputees);
-    //ListeNo3.sort((deputees,parties) => deputees[0].compareTo(parties[0]));
-    print (ListeNo3);
+  // Partie 3    
+  listparties.sort();
+  print('Partie 3 - Voici la liste des partis (ou clubs) triés par ordre alphabétique: ${listparties}.');
+ 
+ // Finalement, faire une map dont Parties = Key et Deputees = Values
+  var ListeNo3 = ChambreDesCommunes(parties, deputees);
+  //ListeNo3.sort((deputees,parties) => deputees[0].compareTo(parties[0]));
+  print (ListeNo3);
 } 
 
-void main() {
+main() {
   ex06_q1();
   ex06_q2();
   ex06_q3();

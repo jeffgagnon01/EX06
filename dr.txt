@@ -3,10 +3,47 @@
 ## Jean-Francois Gagnon
 
 Exercice 6_v2 (11 octobre 2014)
-
-
+supprimer Ex06_02
 
 ex06
+
+17/20
+
+-1
+attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
+utiliser les types spécifiques pour les paramètres de fonctions
+
+tableaudeconversion(note) {
+-->
+tableauDeConversion(num note) {
+
+ChambreDesCommunes(var parties, var deputees) {
+-->
+chambreDesCommunes(Map parties, Map deputees) {
+
+Liste_pays
+-->
+listePays
+
+Question 4 : Given a list of names, make a list of three lists, first with names shorter than 8 letters, second with names longer than 8 letters, and third with names that are 8 letters long.
+Partie 1 - Voici la liste entière des noms : [Canada, Mexique, États-Unis, Haïti, Brésil, Chili, Guatemala, Colombie, République dominicaine, Équateur, Argentine, Pérou]
+Partie 2 - Voici les 3 listes classées selon le nombre de charactères:
+Ceux de moins de 8 lettres: [Canada, Mexique, Haïti, Brésil, Chili, Pérou]
+Ceux de 8 lettres: [Colombie, Équateur]
+Ceux de plus de 8 lettres: [États-Unis, Guatemala, République dominicaine, Argentine]
+null
+
+-1
+print('${Liste_pays(noms)}');
+Liste_pays returns null (when thwere is no explicit return).
+
+-1
+6.5
+Prepare two LISTS, one with the names of players and their clubs, 
+and the other with the names of clubs. Make the third LIST with clubs ordered 
+by their names, where each club is followed by its LIST of players.
+
+---
 
 ?/20
 

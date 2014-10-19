@@ -18,46 +18,43 @@ palindrome(String texte) {
 // ex06_q2
 
 timespan(DateTime date_a, DateTime date_b) {  //Reference : Ex04_Question3
- 
- Duration timediff = date_a.difference(date_b);
- return timediff.inDays.abs();
-
+  Duration timediff = date_a.difference(date_b);
+  return timediff.inDays.abs();
 }
 
 // ex06_q3
 
-tableaudeconversion(note) {  // Source : http://cs.smith.edu/~orourke/Grading.html
-  if(note>=97.5)
+tableaudeconversion(num note) {  // Source : http://cs.smith.edu/~orourke/Grading.html
+  if (note>=97.5)
     return 'A+';
-  else if(note>=92.5)
+  else if (note>=92.5)
     return 'A';
-  else if(note>=90.0)
-      return 'A-';
-  else if(note>=87.5)
-      return 'B+';
-  else if(note>=82.5)
-      return 'B';
-  else if(note>=80.0)
-      return 'B-';
-  else if(note>=77.5)
-      return 'C+';
-  else if(note>=72.5)
-      return 'C';
+  else if (note>=90.0)
+    return 'A-';
+  else if (note>=87.5)
+    return 'B+';
+  else if (note>=82.5)
+    return 'B';
+  else if (note>=80.0)
+    return 'B-';
+  else if (note>=77.5)
+    return 'C+';
+  else if (note>=72.5)
+    return 'C';
   else if(note>=70.0)
-      return 'C-';
-  else if(note>=67.5)
-        return 'D+';
-  else if(note>=62.5)
-        return 'D';
-  else if(note>=60.0)
-        return 'D-';
-  else if(note<60.0)
-        return 'E';
+    return 'C-';
+  else if (note>=67.5)
+    return 'D+';
+  else if (note>=62.5)
+    return 'D';
+  else if (note>=60.0)
+    return 'D-';
+  else if (note<60.0)
+    return 'E';
  }
 
 // ex06_q4
-Liste_pays(noms){
- 
+Liste_pays(noms) {
   var court = [];  
   var long = [];
   var egal = [];
@@ -70,7 +67,7 @@ Liste_pays(noms){
     } else if (longueur.length == 8) {
       egal.add(longueur);
     }
-} // Prof Dzenan, pourquoi une valeur null apparait-elle ???
+  } // Prof Dzenan, pourquoi une valeur null apparait-elle ???
   
   print('Ceux de moins de 8 lettres: ${court}');  // Astuce : Mettre les focntions print en dehors des accolades <<for>>, sinon impression pour chaque loop ! :)  
   print('Ceux de 8 lettres: ${egal}');
@@ -78,9 +75,8 @@ Liste_pays(noms){
 }
 
 // ex06_q5
-
 ChambreDesCommunes(var parties, var deputees) {
-   
+ 
    var liste = new List();
    var partipolitique = deputees.values.toList();
    var chambrecommunes = deputees.keys.toList();
